@@ -1,9 +1,18 @@
 #PNJCalculator 
 
 import os
+import data as need
+import json
 import PySimpleGUI as ms
+import requests
 
 
+print(need.getT6JournalMage())
+
+
+
+
+#https://www.albion-online-data.com/api/v2/stats/View/T2_FARM_BEAN_SEED?locations=FORTSTRELING&qualities=0
 
 def rentability(values):
 
